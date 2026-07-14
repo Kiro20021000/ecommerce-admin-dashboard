@@ -1,16 +1,84 @@
-# React + Vite
+# React Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive and modern Admin Dashboard built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+The application allows users to manage products, view store statistics, browse customer orders, switch between light and dark mode, and save product changes using localStorage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Dashboard overview with dynamic statistics
+- Total products count
+- Total categories count
+- Average product price
+- Total available stock
+- Recently added products section
+- Products table
+- Add new products
+- Edit existing products
+- Delete products
+- Search products by name
+- Filter products by category
+- Products pagination
+- Customer orders page
+- Light and dark mode
+- Theme preference saved in localStorage
+- Product changes saved in localStorage
+- Responsive user interface
+- Reusable React components
+- Shared state management using Context API
+- Loading and error states
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## CRUD Operations
 
-## Expanding the Oxlint configuration
+The Products page supports the main CRUD operations:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Create: Add a new product
+- Read: Display and search products
+- Update: Edit existing product information
+- Delete: Remove products from the list
+
+## Technologies Used
+
+- React
+- JavaScript
+- Tailwind CSS
+- React Router
+- Context API
+- Axios
+- DummyJSON API
+- Local Storage
+- Vite
+
+## Concepts Applied
+
+- React Components
+- Props
+- State Management
+- React Hooks
+- useState
+- useEffect
+- useContext
+- Custom Hooks
+- Context Providers
+- Controlled Forms
+- Conditional Rendering
+- Array methods such as map, filter, reduce and slice
+- API Data Fetching
+- CRUD Operations
+- Responsive Design
+- Dark Mode
+- Local Storage Persistence
+
+## Pages
+
+### Dashboard
+
+Displays store statistics and the most recently added products.
+
+### Products
+
+Allows users to search, filter, add, edit and delete products. It also includes pagination for navigating through the product list.
+
+### Orders
+
+Displays customer orders fetched from the DummyJSON API.
